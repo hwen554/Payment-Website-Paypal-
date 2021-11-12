@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device,initial-scale=1.0">
+    <title>Paypal page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form action="action">
+        <h1>ASB Payment</h1>
+        <label for="name">Payer Name</label><br>
+        <input class="input1" type="text" name="name" id="name" placeholder="Please enter your name"><br>
+        <label for="email">Email Address</label><br>
+        <input class="input1" type="email" name="email" id="email" placeholder="Please enter your email"><br>
+        <label for="cardnumber">Card Number</label><br>
+        <input class="input1" type="number" name="cardnumber" id="cardnumber" placeholder="XXXX XXXX XXXX XXXX"><br>
+        <div class=div>
+            <label for="CVV">CVV</label><br>
+            <input class="input2" type="cvv" name="CVV" id="CVV" placeholder="XXX"><br>
+        </div>
+        <div class="div">
+            <label for="expiry date">Expiry Date</label><br>
+            <input class="input2" type="expiry" name="expirydate" id="expirydate" placeholder="XX/XX"><br>
+        </div>
+        <div class="div">
+            <label for="nameoncard">Name On Card</label><br>
+            <input class="input2" type="nameoncard" name="nameoncard" id="nameoncard" placeholder="Please enter your full name"><br>
+        </div>
+        <button class="button" type="button">Click To Pay</button><button class="button" type="button">Close</button>
+
+    </form>
+</body>
+
+</html>
